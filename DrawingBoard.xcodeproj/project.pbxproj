@@ -13,6 +13,10 @@
 		77CBF5941C7166550007A7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CBF5921C7166550007A7EE /* Main.storyboard */; };
 		77CBF5961C7166550007A7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CBF5951C7166550007A7EE /* Assets.xcassets */; };
 		77CBF5991C7166550007A7EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CBF5971C7166550007A7EE /* LaunchScreen.storyboard */; };
+		77CBF5A21C7168870007A7EE /* DrawingCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBF5A11C7168870007A7EE /* DrawingCanvas.m */; };
+		77CEB6381C71A9DC0024C94E /* CHColorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEB6371C71A9DC0024C94E /* CHColorImageView.m */; };
+		77CEB63B1C71C1E80024C94E /* CHColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEB63A1C71C1E80024C94E /* CHColorPickerView.m */; };
+		77CEB64C1C731BC80024C94E /* CHImageSaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEB64B1C731BC80024C94E /* CHImageSaveController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		77CBF5951C7166550007A7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77CBF5981C7166550007A7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77CBF59A1C7166550007A7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CBF5A01C7168870007A7EE /* DrawingCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingCanvas.h; sourceTree = "<group>"; };
+		77CBF5A11C7168870007A7EE /* DrawingCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingCanvas.m; sourceTree = "<group>"; };
+		77CEB6361C71A9DC0024C94E /* CHColorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHColorImageView.h; sourceTree = "<group>"; };
+		77CEB6371C71A9DC0024C94E /* CHColorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHColorImageView.m; sourceTree = "<group>"; };
+		77CEB6391C71C1E80024C94E /* CHColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHColorPickerView.h; sourceTree = "<group>"; };
+		77CEB63A1C71C1E80024C94E /* CHColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHColorPickerView.m; sourceTree = "<group>"; };
+		77CEB64A1C731BC80024C94E /* CHImageSaveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageSaveController.h; sourceTree = "<group>"; };
+		77CEB64B1C731BC80024C94E /* CHImageSaveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageSaveController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				77CBF5971C7166550007A7EE /* LaunchScreen.storyboard */,
 				77CBF59A1C7166550007A7EE /* Info.plist */,
 				77CBF5891C7166550007A7EE /* Supporting Files */,
+				77CBF5A01C7168870007A7EE /* DrawingCanvas.h */,
+				77CBF5A11C7168870007A7EE /* DrawingCanvas.m */,
+				77CEB6361C71A9DC0024C94E /* CHColorImageView.h */,
+				77CEB6371C71A9DC0024C94E /* CHColorImageView.m */,
+				77CEB6391C71C1E80024C94E /* CHColorPickerView.h */,
+				77CEB63A1C71C1E80024C94E /* CHColorPickerView.m */,
+				77CEB64A1C731BC80024C94E /* CHImageSaveController.h */,
+				77CEB64B1C731BC80024C94E /* CHImageSaveController.m */,
 			);
 			path = DrawingBoard;
 			sourceTree = "<group>";
@@ -149,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77CEB6381C71A9DC0024C94E /* CHColorImageView.m in Sources */,
 				77CBF5911C7166550007A7EE /* ViewController.m in Sources */,
 				77CBF58E1C7166550007A7EE /* AppDelegate.m in Sources */,
+				77CEB64C1C731BC80024C94E /* CHImageSaveController.m in Sources */,
+				77CBF5A21C7168870007A7EE /* DrawingCanvas.m in Sources */,
 				77CBF58B1C7166550007A7EE /* main.m in Sources */,
+				77CEB63B1C71C1E80024C94E /* CHColorPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				77CBF59F1C7166550007A7EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
