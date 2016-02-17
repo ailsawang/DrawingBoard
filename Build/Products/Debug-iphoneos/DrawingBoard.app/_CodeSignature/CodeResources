@@ -4,15 +4,63 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		1Axcnkof1wln4hifSIMjHjlAnQc=
+		</data>
+		<key>AppIcon29x29@2x~ipad.png</key>
+		<data>
+		1Axcnkof1wln4hifSIMjHjlAnQc=
+		</data>
+		<key>AppIcon29x29~ipad.png</key>
+		<data>
+		DOlpqjJotCfjvsvC57kej6tyetU=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		UfJlqRb8DoHXEUkydCo7+NogstE=
+		</data>
+		<key>AppIcon40x40@2x~ipad.png</key>
+		<data>
+		UfJlqRb8DoHXEUkydCo7+NogstE=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		0V615DMqHuJ+eEz1rEJ4W8icFjo=
+		</data>
+		<key>AppIcon40x40~ipad.png</key>
+		<data>
+		szGWmzk3YCy/RmnqL/RRrt1ZvkM=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		Q0JWso0CauP6Peq0FP9KMQWA5h8=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		vvLUmEZSOw/QuMn4zQbNg2Al2O8=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		18fwcwCex/Mc8/s490zmWdYB1Rg=
+		</data>
+		<key>AppIcon76x76~ipad.png</key>
+		<data>
+		xC5Badrm7vWM+2IQoHxZTf0p3N0=
+		</data>
+		<key>AppIcon83.5x83.5@2x~ipad.png</key>
+		<data>
+		E3K4xUpgrvPq4VZ375IvORbuGJk=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		qPCIordn8ersV/AvDzrZY2d6PUM=
+		iuuzpCl2PC2Uv8E4p2G0vas+78A=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ig7EiQOJSZyvVXmyAXeQYl4D2oI=
+			UPyR4n5EcLfQT1arRH3VQPrsoLY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,7 +78,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j7WFQe0Twa4Bpg78HLiQz9REjaY=
+			52hx+qrWmdWMGRnmxLeuJe7N1jY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -64,7 +112,7 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		JSgnYBPt8rEt+j8yVoyQBkxxvgQ=
+		peooOCj4JfV1mJoDkQvNlzAw4x0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -77,15 +125,63 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		1Axcnkof1wln4hifSIMjHjlAnQc=
+		</data>
+		<key>AppIcon29x29@2x~ipad.png</key>
+		<data>
+		1Axcnkof1wln4hifSIMjHjlAnQc=
+		</data>
+		<key>AppIcon29x29~ipad.png</key>
+		<data>
+		DOlpqjJotCfjvsvC57kej6tyetU=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		UfJlqRb8DoHXEUkydCo7+NogstE=
+		</data>
+		<key>AppIcon40x40@2x~ipad.png</key>
+		<data>
+		UfJlqRb8DoHXEUkydCo7+NogstE=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		0V615DMqHuJ+eEz1rEJ4W8icFjo=
+		</data>
+		<key>AppIcon40x40~ipad.png</key>
+		<data>
+		szGWmzk3YCy/RmnqL/RRrt1ZvkM=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		Q0JWso0CauP6Peq0FP9KMQWA5h8=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		vvLUmEZSOw/QuMn4zQbNg2Al2O8=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		18fwcwCex/Mc8/s490zmWdYB1Rg=
+		</data>
+		<key>AppIcon76x76~ipad.png</key>
+		<data>
+		xC5Badrm7vWM+2IQoHxZTf0p3N0=
+		</data>
+		<key>AppIcon83.5x83.5@2x~ipad.png</key>
+		<data>
+		E3K4xUpgrvPq4VZ375IvORbuGJk=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		qPCIordn8ersV/AvDzrZY2d6PUM=
+		iuuzpCl2PC2Uv8E4p2G0vas+78A=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ig7EiQOJSZyvVXmyAXeQYl4D2oI=
+			UPyR4n5EcLfQT1arRH3VQPrsoLY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -103,7 +199,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j7WFQe0Twa4Bpg78HLiQz9REjaY=
+			52hx+qrWmdWMGRnmxLeuJe7N1jY=
 			</data>
 			<key>optional</key>
 			<true/>

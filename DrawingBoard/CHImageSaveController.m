@@ -22,6 +22,10 @@
     self.navigationItem.title = @"image";
     UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"save" style:UIBarButtonItemStyleDone target:self action:@selector(saveButtonClicked)];
     self.navigationItem.rightBarButtonItem = rightBtn;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     [self.imageView setFrame:CGRectMake(10, 100, self.view.bounds.size.width - 20, self.view.bounds.size.height - 100)];
     self.imageView.image = self.img;
     [self.imageView sizeToFit];
