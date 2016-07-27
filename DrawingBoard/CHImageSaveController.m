@@ -42,7 +42,17 @@
 
 
 - (void)saveButtonClicked {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"save success" message:@"" preferredStyle:UIAlertControllerStyleAlert];
+    UIImageWriteToSavedPhotosAlbum(self.img, self, @selector(imageSavedToPhotosAlbum:didFinishSavingWithError:contextInfo:), nil);
+}
+
+- (void)imageSavedToPhotosAlbum:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo{
+    NSString *message = @"";
+    if (!error) {
+        message = @"成功保存到相册";
+    } else {
+        message = [error description];
+    }
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:message message:@"" preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
         self.navigationItem.rightBarButtonItem.enabled = NO;
         [self.navigationController dismissViewControllerAnimated:YES completion:^{

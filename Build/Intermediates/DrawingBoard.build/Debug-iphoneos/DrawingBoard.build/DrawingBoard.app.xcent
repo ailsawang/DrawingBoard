@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>535JJCWT93.chunhong.wang.DrawingBoard</string>
+	<string>6T8TQEW49Y.chunhong.wang.DrawingBoard</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>535JJCWT93</string>
+	<string>6T8TQEW49Y</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>535JJCWT93.chunhong.wang.DrawingBoard</string>
+		<string>6T8TQEW49Y.chunhong.wang.DrawingBoard</string>
 	</array>
 </dict>
 </plist>

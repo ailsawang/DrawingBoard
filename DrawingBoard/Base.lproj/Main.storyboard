@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="q9G-Rx-Blm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="q9G-Rx-Blm">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpU-lK-Unu">
-                                <rect key="frame" x="197" y="580" width="80" height="30"/>
+                                <rect key="frame" x="190" y="580" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="B49-Tq-Cvn"/>
                                     <constraint firstAttribute="width" constant="80" id="k0P-pH-7Ci"/>
@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESA-XM-oEo">
-                                <rect key="frame" x="197" y="623" width="80" height="30"/>
+                                <rect key="frame" x="190" y="623" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="eAe-VF-Y4k"/>
                                     <constraint firstAttribute="width" constant="80" id="pvD-Cg-NsG"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hb-e6-CuT">
-                                <rect key="frame" x="293" y="580" width="80" height="30"/>
+                                <rect key="frame" x="286" y="580" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="QAZ-e9-JCL"/>
                                     <constraint firstAttribute="width" constant="80" id="TJW-2M-pgH"/>
@@ -86,7 +86,7 @@
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEO-A3-KMB">
-                                <rect key="frame" x="293" y="623" width="80" height="30"/>
+                                <rect key="frame" x="286" y="623" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="24Z-Pu-2Cm"/>
                                     <constraint firstAttribute="height" constant="30" id="cWC-FO-0Vs"/>
@@ -107,7 +107,7 @@
                             <constraint firstItem="ESA-XM-oEo" firstAttribute="centerY" secondItem="zJb-xf-H7e" secondAttribute="centerY" id="5Qz-KH-GA3"/>
                             <constraint firstItem="kZT-gg-Cuk" firstAttribute="top" secondItem="qog-Uz-PNI" secondAttribute="bottom" constant="20" id="6Rt-zL-ESF"/>
                             <constraint firstItem="kZT-gg-Cuk" firstAttribute="centerY" secondItem="43N-jq-mdX" secondAttribute="centerY" id="8mW-bQ-MAp"/>
-                            <constraint firstItem="EpU-lK-Unu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="CZi-3A-0pX"/>
+                            <constraint firstItem="EpU-lK-Unu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="42" id="CZi-3A-0pX"/>
                             <constraint firstItem="kZT-gg-Cuk" firstAttribute="leading" secondItem="qog-Uz-PNI" secondAttribute="leading" constant="8" id="Fka-HG-Vpc"/>
                             <constraint firstItem="43N-jq-mdX" firstAttribute="leading" secondItem="kZT-gg-Cuk" secondAttribute="trailing" constant="6" id="Fwk-ZN-KKs"/>
                             <constraint firstAttribute="trailing" secondItem="qog-Uz-PNI" secondAttribute="trailing" constant="8" id="QYg-xA-wJo"/>
